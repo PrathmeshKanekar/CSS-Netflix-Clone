@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+section{
+    background:url(/assets/images/netflix-background.jpg);
+    height: 680px;
+   background-size: cover;
+   
+}
+section .img-gradient{
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    width: 100%;
+    height: 680px;
+}
+
+section .back-img{
+    /* background: url(/assets/images/netflix-background.jpg); */
+    width: 100%;
+    height: 100%;
+    
+}
+nav{
+    display: flex;
+}
+nav .left-side img{
+    position: absolute;
+    z-index: 1;
+    width: 148px;
+    height: 46px;
+    top: 23px;
+    left: 46px;
+}
+.right-side{
+    position: absolute;
+    display: flex;
+    top:23px;
+    width: 240px;
+    right: 50px;
+    z-index: 1;
+}
+.dropdown .lang{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 110px;
+    margin-right: 20px;
+}
+.dropdown .lang img{
+    width: 22px;
+    height: 20px;
+    padding-right: 4px;
+}
+.dropdown .lang button{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 110px;
+    
+}
+.dropdown-content a{
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.dropdown-content a:hover{
+    background-color: rgb(0, 119, 255);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.right-side .sign a{
+    position: absolute;
+    right: 20px;
+    padding: 7px 15px;
+    background-color: #db0510;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.middle-info{
+    position: absolute;
+    color: white;
+    top: 228px;
+    left: 376px;
+    cursor: text;
+    text-align: center;
+}
+.middle-info .head{
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 50px;
+}
+.middle-info .middle{
+    font-size: 25px;
+    font-weight: 500;
+}
+.middle-info .end{
+    
+    font-size: 18px;
+    font-weight: 500;
+}
+.email input{
+    position: absolute;
+    top: 470px;
+    left: 344px;
+    padding: 20px;
+    width: 450px;
+}
+.email a{
+    position: absolute;
+    top: 470px;
+    left: 795px;
+    padding: 14px;
+    width: 212px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #db0510;
+    color: white;
+    text-decoration: none;
+}
+.email a:hover{
+    background-color: #fa000d;
+}
+/* .artical{
+    background-color: rgb(33,33,33);
+    height: 600px;
+}
+.box-1{
+    position: relative;
+    height: 522px;
+    background-color: black;
+    margin-top: 5px;
+    z-index: -10;
+}
+.video-1{
+    position: absolute;
+    width: 466px;
+    height: 263px;
+    top: 100px;
+    left: 84px;
+    z-index: -1;
+}
+.video-1 video{
+    width: 466px;
+    height: 263px;
+} */
